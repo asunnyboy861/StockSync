@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StockSync - Support</title>
+    <style>
+        :root { --primary: #007AFF; --bg: #F2F2F7; --card: #FFFFFF; --text: #1C1C1E; --secondary: #8E8E93; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .container { max-width: 720px; margin: 0 auto; padding: 40px 20px; }
+        h1 { font-size: 32px; font-weight: 700; margin-bottom: 8px; }
+        h2 { font-size: 22px; font-weight: 600; margin-top: 32px; margin-bottom: 12px; color: var(--primary); }
+        p { margin-bottom: 16px; }
+        .card { background: var(--card); border-radius: 12px; padding: 24px; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+        a { color: var(--primary); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .badge { display: inline-block; background: var(--primary); color: white; padding: 4px 12px; border-radius: 20px; font-size: 13px; font-weight: 500; }
+        ul { padding-left: 20px; margin-bottom: 16px; }
+        li { margin-bottom: 8px; }
+        footer { text-align: center; padding: 40px 0; color: var(--secondary); font-size: 13px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>StockSync Support</h1>
+        <p><span class="badge">v1.0.0</span></p>
+
+        <div class="card">
+            <h2>Contact Us</h2>
+            <p>Need help? We're here for you.</p>
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:support@zzoutuo.com">support@zzoutuo.com</a></li>
+                <li><strong>Response Time:</strong> Within 24 hours (Pro/Lifetime), within 48 hours (Starter/Free)</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Getting Started</h2>
+            <p><strong>1. Connect Your First Store</strong></p>
+            <ul>
+                <li>Go to the <strong>Stores</strong> tab and tap <strong>+</strong></li>
+                <li>Choose your platform (Shopify or WooCommerce)</li>
+                <li>Enter your store credentials and tap <strong>Connect</strong></li>
+            </ul>
+            <p><strong>2. Review Your Products</strong></p>
+            <ul>
+                <li>Navigate to the <strong>Products</strong> tab to see all synced inventory</li>
+                <li>Use filters to find low stock or out-of-stock items</li>
+            </ul>
+            <p><strong>3. Monitor Sync Activity</strong></p>
+            <ul>
+                <li>Check the <strong>Dashboard</strong> for an overview of stock levels and sync status</li>
+                <li>Tap the bell icon to view detailed sync logs</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Shopify Setup</h2>
+            <ol>
+                <li>Log in to your Shopify Admin</li>
+                <li>Go to <strong>Settings → Apps and sales channels → Develop apps</strong></li>
+                <li>Create a new app with the required permissions: <code>read_products</code>, <code>write_inventory</code>, <code>read_inventory</code></li>
+                <li>Copy the Admin API access token</li>
+                <li>Enter your store domain (e.g., <code>mystore.myshopify.com</code>) and the access token in StockSync</li>
+            </ol>
+        </div>
+
+        <div class="card">
+            <h2>WooCommerce Setup</h2>
+            <ol>
+                <li>Log in to your WordPress admin</li>
+                <li>Go to <strong>WooCommerce → Settings → Advanced → REST API</strong></li>
+                <li>Click <strong>Add key</strong> and set permissions to <strong>Read/Write</strong></li>
+                <li>Copy the Consumer Key and Consumer Secret</li>
+                <li>Enter your store URL and API keys in StockSync</li>
+            </ol>
+        </div>
+
+        <div class="card">
+            <h2>Frequently Asked Questions</h2>
+            <p><strong>Q: How fast is the sync?</strong></p>
+            <p>A: Real-time sync (Pro plan) updates within 30 seconds via webhooks. Auto sync (Starter) runs every 30 minutes. Free plan requires manual sync.</p>
+            <p><strong>Q: Is my data secure?</strong></p>
+            <p>A: Yes. All API tokens are stored in the iOS Keychain. Your data never passes through third-party servers — it goes directly from your stores to your device.</p>
+            <p><strong>Q: Can I cancel my subscription?</strong></p>
+            <p>A: Yes, you can cancel anytime from Settings → Subscription or through the App Store. You'll retain access until the end of your billing period.</p>
+            <p><strong>Q: What happens if sync fails?</strong></p>
+            <p>A: StockSync automatically retries failed syncs. Check the Sync Activity log for details. If issues persist, contact support.</p>
+        </div>
+
+        <div class="card">
+            <h2>Subscription Plans</h2>
+            <table style="width:100%; border-collapse: collapse; font-size: 14px;">
+                <tr style="border-bottom: 1px solid #E5E5EA;">
+                    <th style="text-align:left; padding: 8px;">Feature</th>
+                    <th style="padding: 8px;">Free</th>
+                    <th style="padding: 8px;">Starter</th>
+                    <th style="padding: 8px;">Pro</th>
+                </tr>
+                <tr style="border-bottom: 1px solid #E5E5EA;">
+                    <td style="padding: 8px;">Stores</td>
+                    <td style="text-align:center; padding: 8px;">1</td>
+                    <td style="text-align:center; padding: 8px;">3</td>
+                    <td style="text-align:center; padding: 8px;">Unlimited</td>
+                </tr>
+                <tr style="border-bottom: 1px solid #E5E5EA;">
+                    <td style="padding: 8px;">Sync Type</td>
+                    <td style="text-align:center; padding: 8px;">Manual</td>
+                    <td style="text-align:center; padding: 8px;">Auto (30min)</td>
+                    <td style="text-align:center; padding: 8px;">Real-time</td>
+                </tr>
+                <tr style="border-bottom: 1px solid #E5E5EA;">
+                    <td style="padding: 8px;">Products</td>
+                    <td style="text-align:center; padding: 8px;">50</td>
+                    <td style="text-align:center; padding: 8px;">500</td>
+                    <td style="text-align:center; padding: 8px;">Unlimited</td>
+                </tr>
+                <tr>
+                    <td style="padding: 8px;">Price</td>
+                    <td style="text-align:center; padding: 8px;">Free</td>
+                    <td style="text-align:center; padding: 8px;">$9.99/mo</td>
+                    <td style="text-align:center; padding: 8px;">$24.99/mo</td>
+                </tr>
+            </table>
+        </div>
+
+        <footer>
+            <p>StockSync by zzoutuo &copy; 2026. All rights reserved.</p>
+            <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Use</a></p>
+        </footer>
+    </div>
+</body>
+</html>

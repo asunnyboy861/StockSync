@@ -60,3 +60,4 @@ Carthage/Checkouts/
 # Misc
 *.log
 node_modules/
+screenshots/

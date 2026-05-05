@@ -15,10 +15,10 @@
 
 | Page | URL | Status |
 |------|-----|--------|
-| Landing Page | https://asunnyboy861.github.io/StockSync/ | ⏳ Pending |
-| Support | https://asunnyboy861.github.io/StockSync/support.html | ⏳ Pending |
-| Privacy Policy | https://asunnyboy861.github.io/StockSync/privacy.html | ⏳ Pending |
-| Terms of Use | https://asunnyboy861.github.io/StockSync/terms.html | ⏳ Pending |
+| Landing Page | https://asunnyboy861.github.io/StockSync/ | ✅ Live |
+| Support | https://asunnyboy861.github.io/StockSync/support.html | ✅ Live |
+| Privacy Policy | https://asunnyboy861.github.io/StockSync/privacy.html | ✅ Live |
+| Terms of Use | https://asunnyboy861.github.io/StockSync/terms.html | ✅ Live |
 
 **Note**: Terms of Use required for IAP subscription apps.
 
@@ -65,8 +65,8 @@ StockSync/
 - [x] Keychain integration for secure token storage
 - [x] Policy pages created (support, privacy, terms)
 - [x] Git repository initialized and committed
-- [ ] GitHub repository created and pushed
-- [ ] GitHub Pages enabled for policy pages
+- [x] GitHub repository created and pushed
+- [x] GitHub Pages enabled for policy pages
 - [ ] App Store Connect app record created
 - [ ] TestFlight build uploaded
 - [ ] App Store metadata submitted
